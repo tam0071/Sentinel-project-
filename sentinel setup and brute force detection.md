@@ -103,7 +103,7 @@ This generated:
 
 ### 🔹 Failed Login Analysis
 
-``kql
+```kql
 SigninLogs
 | where ResultType != 0
 | summarize FailedAttempts = count() by IPAddress, UserPrincipalName
@@ -112,6 +112,7 @@ SigninLogs
 SigninLogs
 | summarize AttemptCount = count() by IPAddress
 | order by AttemptCount desc
+```
 
 ## 🚨 Step 8: Analytics Rule Creation (Brute Force Detection)
 
