@@ -102,7 +102,8 @@ This generated:
 ## 📊 Step 7: Log Analysis Using KQL
 
 ### 🔹 Failed Login Analysis
-```kql
+
+``kql
 SigninLogs
 | where ResultType != 0
 | summarize FailedAttempts = count() by IPAddress, UserPrincipalName
