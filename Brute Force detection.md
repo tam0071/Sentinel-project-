@@ -1,6 +1,6 @@
 ### Brute Force Attack 
 
-## 🔍 Step 1: Attack Simulation (Failed Login Attempts)
+##  Step 1: Attack Simulation (Failed Login Attempts)
 
 To simulate brute force behavior:
 
@@ -14,7 +14,7 @@ This generated:
 
 ---
 
-## 📊 Step 2: Log Analysis Using KQL
+##  Step 2: Log Analysis Using KQL
 
 ### 🔹 Failed Login Analysis
 
@@ -29,7 +29,7 @@ SigninLogs
 | order by AttemptCount desc
 ```
 
-## 🚨 Step 3: Analytics Rule Creation (Brute Force Detection)
+##  Step 3: Analytics Rule Creation (Brute Force Detection)
 
 Created a scheduled analytics rule in Microsoft Sentinel:
 
@@ -45,7 +45,7 @@ This rule automatically detects repeated authentication failures and generates a
 
 ---
 
-## 🔔 Step 4: Incident Generation & Detection Validation
+##  Step 4: Incident Generation & Detection Validation
 
 After triggering failed login attempts:
 
@@ -60,7 +60,7 @@ After triggering failed login attempts:
 
 ---
 
-## 🧠 Step 5: SOC Investigation Workflow
+##  Step 5: SOC Investigation Workflow
 
 Using Microsoft Defender portal:
 
@@ -79,7 +79,7 @@ Using Microsoft Defender portal:
 
 ---
 
-## 🧪 Skills Demonstrated
+##  Skills Demonstrated
 
 - Microsoft Sentinel deployment  
 - SIEM architecture design  
