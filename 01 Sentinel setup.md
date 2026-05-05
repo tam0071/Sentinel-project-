@@ -1,7 +1,7 @@
 # Microsoft Sentinel SOC Lab – SIEM Deployment
 
 ## Project Overview
-This project demonstrates a hands-on implementation of a Security Information and Event Management (SIEM) solution using Microsoft Sentinel. The lab simulates real-world SOC operations including log ingestion, threat detection, and brute force attack monitoring in a cloud environment.
+This project demonstrates a hands on implementation of a Security Information and Event Management (SIEM) solution using Microsoft Sentinel. The lab simulates real world SOC operations including log ingestion, threat detection, and brute force attack monitoring in a cloud environment.
 
 The system is integrated with Microsoft Entra ID (Azure Active Directory) to collect authentication logs and detect suspicious login activity using KQL (Kusto Query Language).
 
@@ -24,7 +24,7 @@ This lab reflects real SOC workflows used by cloud security engineers and SOC an
 - **Cloud Platform:** Microsoft Azure  
 - **SIEM Tool:** Microsoft Sentinel  
 - **Identity Source:** Microsoft Entra ID  
-- **Log Source:** Sign-in Logs + Audit Logs  
+- **Log Source:** Sign in Logs + Audit Logs  
 - **Query Language:** KQL (Kusto Query Language)  
 - **Investigation Tool:** Microsoft Defender Portal
 
@@ -75,7 +75,7 @@ These logs provide visibility into:
 - Configured diagnostic settings in Entra ID  
 - Routed logs to Log Analytics Workspace  
 - Selected:
-  - Sign-in logs  
+  - Sign in logs  
   - Audit logs  
 
 This step is critical for enabling detection visibility inside Sentinel.
