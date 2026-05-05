@@ -2,11 +2,19 @@
 
 ---
 
-These labs are designed to reflect how real SOC analysts and cloud security engineers operate using Microsoft Sentinel and Microsoft Defender in Azure environments.
+These labs are designed to reflect how real SOC analysts and cloud security engineers operate using Microsoft Sentinel and Microsoft Defender in Azure environments.  
 
 ---
 
-## Project Goals
+## Lab Series
+
+- [Lab 1: Sentinel Setup](./01%20Sentinel%20setup.md)
+- [Lab 2: Brute Force Detection](./02%20Brute%20Force%20detection.md)
+- [Lab 3: Investigating Failed Login Attacks](./03%20investigating%20failed%20login%20attacks.md)
+- [Lab 4: SOC Investigation Workflow](./04%20SOC%20investigation%20workflow.md)
+- [Lab 5: Threat Hunting with KQL](./05%20Threat%20Hunting%20with%20KQL.md)
+
+  ## Project Goals
 
 - Build a functional SIEM environment using Microsoft Sentinel  
 - Ingest and analyze authentication logs from Microsoft Entra ID  
@@ -14,11 +22,7 @@ These labs are designed to reflect how real SOC analysts and cloud security engi
 - Perform SOC-style incident investigation and triage  
 - Create custom detection rules for privilege escalation scenarios  
 - Develop threat hunting skills using KQL (Kusto Query Language)  
-- Understand real-world cloud security monitoring workflows  
-
----
-
-## Lab Series Structure
+- Understand real-world cloud security monitoring workflow
 
 ### Lab 1: Microsoft Sentinel SIEM Deployment & Brute Force Detection
 - Created Log Analytics Workspace  
