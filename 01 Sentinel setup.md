@@ -1,4 +1,4 @@
-# Microsoft Sentinel SOC Lab – SIEM Deployment & Brute Force Detection
+# Microsoft Sentinel SOC Lab – SIEM Deployment
 
 ## Project Overview
 This project demonstrates a hands-on implementation of a Security Information and Event Management (SIEM) solution using Microsoft Sentinel. The lab simulates real-world SOC operations including log ingestion, threat detection, and brute force attack monitoring in a cloud environment.
