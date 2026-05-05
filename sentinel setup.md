@@ -26,11 +26,15 @@ This lab reflects real SOC workflows used by cloud security engineers and SOC an
 - **Identity Source:** Microsoft Entra ID  
 - **Log Source:** Sign-in Logs + Audit Logs  
 - **Query Language:** KQL (Kusto Query Language)  
-- **Investigation Tool:** Microsoft Defender Portal  
+- **Investigation Tool:** Microsoft Defender Portal
+
+<img width="1007" height="551" alt="dppaO8gp1a6nlOgS6_qqlmib4pbGZxui6vI-2o7PIckbvlS4ckTKkLxos30ZBR4esVWP4MKnDmrr_yo2UHQ0sYCJSNwDMsyQlH38d-y7Me0Qc3icI-ewp-q6r28K9Ta8v8dhMALKPzSz0kghaTusnSDn8-d6qNYLbR1mpipe1AsEvH5U39yiUIdzDKkcQjKD" src="https://github.com/user-attachments/assets/17ff2beb-3a7e-4a30-b612-e63b7be8c990" />
+
+
 
 ---
 
-## ⚙️ Step 1: Log Analytics Workspace Setup
+##  Step 1: Log Analytics Workspace Setup
 
 - Created a Log Analytics Workspace in Azure  
 - Configured Sentinel on top of the workspace  
@@ -40,7 +44,7 @@ This workspace acts as the core ingestion point for all security logs.
 
 ---
 
-## 🔗 Step 2: Microsoft Sentinel Deployment
+##  Step 2: Microsoft Sentinel Deployment
 
 - Enabled Microsoft Sentinel on the Log Analytics Workspace  
 - Connected Sentinel to the Azure environment  
@@ -50,7 +54,7 @@ Sentinel acts as the central platform for detection, investigation, and response
 
 ---
 
-## 🔐 Step 3: Microsoft Entra ID Integration
+##  Step 3: Microsoft Entra ID Integration
 
 - Connected Microsoft Entra ID to Sentinel  
 - Enabled:
@@ -62,11 +66,11 @@ These logs provide visibility into:
 - Failed login activity  
 - User identity behavior  
 
-> ⚠️ Diagnostic settings must be enabled or logs will not flow into Sentinel.
+>  Diagnostic settings must be enabled or logs will not flow into Sentinel.
 
 ---
 
-## ⚠️ Step 4: Diagnostic Settings Configuration
+##  Step 4: Diagnostic Settings Configuration
 
 - Configured diagnostic settings in Entra ID  
 - Routed logs to Log Analytics Workspace  
@@ -78,7 +82,7 @@ This step is critical for enabling detection visibility inside Sentinel.
 
 ---
 
-## 💰 Step 5: Cost Awareness
+##  Step 5: Cost Awareness
 
 - Disabled logs after testing to avoid unnecessary Azure charges  
 - Prevented continuous log ingestion costs  
