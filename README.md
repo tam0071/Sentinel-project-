@@ -65,7 +65,7 @@ These labs are designed to reflect how real SOC analysts and cloud security engi
 
 ---
 
-## 🔍 Technologies Used
+## Technologies Used
 
 - Microsoft Sentinel (SIEM/SOAR)
 - Microsoft Defender Portal
@@ -76,7 +76,7 @@ These labs are designed to reflect how real SOC analysts and cloud security engi
 
 ---
 
-## ⚠️ Security Concepts Covered
+## Security Concepts Covered
 
 - Brute Force Attacks  
 - Credential Stuffing  
@@ -88,7 +88,7 @@ These labs are designed to reflect how real SOC analysts and cloud security engi
 
 ---
 
-## 🧪 Skills Demonstrated
+## Skills Demonstrated
 
 - SIEM deployment and configuration  
 - Log ingestion and normalization  
